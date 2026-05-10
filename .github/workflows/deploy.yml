@@ -1,0 +1,83 @@
+name: Deploy Embodied Zoo to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout wiki
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Quartz
+        run: |
+          git clone https://github.com/jackyzha0/quartz.git /tmp/quartz
+          cd /tmp/quartz
+          npm install
+
+      - name: Link wiki content
+        run: |
+          rm -rf /tmp/quartz/content
+          ln -s "$GITHUB_WORKSPACE" /tmp/quartz/content
+
+      - name: Configure Quartz site metadata
+        env:
+          REPO_NAME: ${{ github.event.repository.name }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          cd /tmp/quartz
+          if [ "$REPO_NAME" = "$OWNER.github.io" ]; then
+            BASE_URL="$OWNER.github.io"
+          else
+            BASE_URL="$OWNER.github.io/$REPO_NAME"
+          fi
+          node -e "
+            const fs = require('fs');
+            let cfg = fs.readFileSync('quartz.config.ts', 'utf8');
+            cfg = cfg.replace(/baseUrl:\s*\"[^\"]*\"/, 'baseUrl: \"' + process.env.BASE_URL + '\"');
+            cfg = cfg.replace(/pageTitle:\s*\"[^\"]*\"/, 'pageTitle: \"Embodied Zoo\"');
+            cfg = cfg.replace(/locale:\s*\"[^\"]*\"/, 'locale: \"zh-CN\"');
+            fs.writeFileSync('quartz.config.ts', cfg);
+            console.log('Configured baseUrl:', process.env.BASE_URL);
+          "
+
+      - name: Build site
+        run: |
+          cd /tmp/quartz
+          npx quartz build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: /tmp/quartz/public
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
