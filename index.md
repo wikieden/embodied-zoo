@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附带一行摘要。
 > 查询时请先阅读本文件。
-> Last updated: 2026-05-11 | Total pages: 35
+> Last updated: 2026-05-11 | Total pages: 39
 
 ## Entities
 <!-- 按类型分类，内部按字母排列 -->
@@ -36,6 +36,7 @@
 
 - [[cross-embodiment]] — 同一策略适配多种机器人形态的能力，Open X-Embodiment 和 π⁰ 为代表
 - [[data-flywheel-robotics]] — 机器人部署→数据采集→训练→再部署的闭环，各公司飞轮模式对比
+- [[differentiable-robotics]] — 可微分机器人学与基础工具：让物理、几何、运动学都可微分
 - [[embodied-ai-research-landscape]] — 具身智能研究方向全景图，涵盖13个可投入方向与开源项目地图
 - [[embodied-benchmarks]] — 具身智能基准测试汇总：操作技能、长程任务、多智能体、跨本体等分类浏览
 - [[embodied-brain]] — 具身大脑架构：统一记忆、推理、情感、自我意识，让机器人成为能理解上下文的智能体
@@ -44,7 +45,10 @@
 - [[humanoid-robot]] — 人形机器人定义、主流产品对比、技术分派概览
 - [[imitation-learning-robotics]] — 机器人模仿学习，从遥操作到 YouTube 视频的三级演进
 - [[long-horizon-reasoning]] — 长程任务推理：多步骤、长时间跨度、因果依赖的复杂任务规划与技能链接
+- [[open-hardware-robotics]] — 开源硬件与低成本平台：降低具身智能研究的硬件门槛
+- [[physics-simulators]] — 物理仿真器与数字孪生：具身智能的"训练场"
 - [[reinforcement-learning-robotics]] — 强化学习在机器人中的应用，Isaac Gym/Lab 和企业实践
+- [[robotics-data-engines]] — 数据集与数据引擎：机器人学习的"石油"
 - [[sim-to-real]] — 仿真到真实的策略迁移，域随机化、域适应、残差策略学习
 - [[vla-vision-language-action]] — 视觉-语言-动作统一模型架构，RT-2 定义的基础范式
 - [[world-model-robotics]] — 机器人内心的物理世界预测模型，1X 和 Tesla 为代表
@@ -53,15 +57,15 @@
 
 <!-- 按全景图的 13 个方向归纳，链接到对应的概念页面 -->
 
-1. **物理仿真器与数字孪生** — 具身智能的"训练场"，仿真器保真度决定策略上限
-2. **数据集与数据引擎** — 机器人学习的"石油"，高质量多样化数据是瓶颈
+1. [[physics-simulators]] — 物理仿真器与数字孪生：具身智能的"训练场"，仿真器保真度决定策略上限
+2. [[robotics-data-engines]] — 数据集与数据引擎：机器人学习的"石油"，高质量多样化数据是瓶颈
 3. [[vla-vision-language-action]] — VLA 模型架构：将视觉+语言理解映射到动作的统一范式
 4. [[world-model-robotics]] — 世界模型：让机器人"在脑子里想"，预测未来观察与奖励
 5. [[flow-matching]] — 动作生成 (Diffusion / Flow Matching / Transformer)：平滑高频连续动作轨迹
 6. [[sim-to-real]] — Sim2Real 迁移与域适应：仿真训练策略无缝迁移到真实硬件
 7. [[humanoid-robot]] — 人形机器人运动与全身控制：移动+操作+平衡的联合优化
-8. **开源硬件与低成本平台** — 降低具身智能研究的硬件门槛
-9. **可微分机器人学与基础工具** — 让物理、几何、运动学都可微分
+8. [[open-hardware-robotics]] — 开源硬件与低成本平台：降低具身智能研究的硬件门槛
+9. [[differentiable-robotics]] — 可微分机器人学与基础工具：让物理、几何、运动学都可微分
 10. [[embodied-brain]] — 具身大脑：统一记忆、推理、情感、自我意识的认知架构
 11. [[long-horizon-reasoning]] — 长程任务推理：多子目标、长时间跨度、因果依赖的复杂任务
 12. [[cross-embodiment]] — 跨本体学习与泛化：同一策略适配多种机器人形态

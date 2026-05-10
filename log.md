@@ -102,3 +102,15 @@
 - 概念页链接覆盖率: 13/14 (world-model-robotics 暂无开源仓库可链接)
 - 实体页链接覆盖率: 12/19 (7 家商业公司无公开 GitHub 组织)
 - 全站 GitHub 链接总数: ~238 个
+
+## [2026-05-11] create | 补齐13方向中缺失的 4 个独立概念页面
+- 创建概念页面 (4):
+  - concepts/physics-simulators.md — 物理仿真器与数字孪生：主流仿真器对比表、可差分物理 vs 零差分、多物理后端联合、数字孪生
+  - concepts/robotics-data-engines.md — 数据集与数据引擎：核心数据集、数据引擎工具、数据来源演进、跨本体数据融合
+  - concepts/open-hardware-robotics.md — 开源硬件与低成本平台：主流开源硬件对比、灵巧手挑战、开放标准、通用接口
+  - concepts/differentiable-robotics.md — 可微分机器人学与基础工具：PyPose/Warp/机器人描述汇总、流形优化、可差分运动学
+- 更新导航: index.md
+  - Concepts 区块新增 4 个概念页链接
+  - Research Directions 区块将1-2-8-9方向从纯文本改为链接到独立概念页
+  - 总页数: 35 → 39
+- 更新 landscape.md "参见"部分，新增链接到 4 个新概念页

@@ -347,17 +347,21 @@ confidence: high
 
 ## 参见
 
+- [[physics-simulators]] — 物理仿真器与数字孪生
+- [[robotics-data-engines]] — 数据集与数据引擎
 - [[vla-vision-language-action]] — VLA 模型架构详解
-- [[sim-to-real]] — 仿真到真实迁移
 - [[world-model-robotics]] — 世界模型
 - [[humanoid-robot]] — 人形机器人概览
 - [[cross-embodiment]] — 跨本体学习
 - [[end-to-end-robotics]] — 端到端架构
 - [[reinforcement-learning-robotics]] — 强化学习
 - [[imitation-learning-robotics]] — 模仿学习
-- [[world-model-robotics]] — 世界模型
+- [[sim-to-real]] — 仿真到真实迁移
 - [[genesis-world]] — 生成式世界仿真器
 - [[lerobot]] — 端到端数据与训练框架
 - [[embodied-brain]] — 具身大脑
 - [[long-horizon-reasoning]] — 长程任务推理
 - [[embodied-benchmarks]] — 具身智能基准测试
+- [[open-hardware-robotics]] — 开源硬件与低成本平台
+- [[differentiable-robotics]] — 可微分机器人学与基础工具
+- [[data-flywheel-robotics]] — 数据飞轮
