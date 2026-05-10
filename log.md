@@ -79,3 +79,26 @@
   - Entities 分为 Companies (商业公司) 和 Open-Source Projects (开源项目与平台) 两个子分类
   - 新增 Research Directions (研究方向) 部分，列出 13 个方向并链接到对应概念页面
 - 更新导航: index.md (35 页总数)
+
+## [2026-05-11] update | 补充概念页与实体页 GitHub 链接
+- 为 10 个概念页面补充项目链接 (+31 链接):
+  - concepts/cross-embodiment.md: +2 (π0, Open X-Embodiment)
+  - concepts/data-flywheel-robotics.md: +1 (Omniverse Replicator)
+  - concepts/end-to-end-robotics.md: +1 (π0)
+  - concepts/flow-matching.md: +2 (π0, Diffusion Policy)
+  - concepts/humanoid-robot.md: +2 (Unitree GitHub)
+  - concepts/imitation-learning-robotics.md: +2 (robomimic, ACT)
+  - concepts/reinforcement-learning-robotics.md: +3 (Isaac Lab, MuJoCo, robomimic, RL-Games)
+  - concepts/sim-to-real.md: +3 (Isaac Sim, MuJoCo, Genesis)
+  - concepts/vla-vision-language-action.md: +5 (RT-2, π0, FAST, Gemini Robotics)
+- 为 6 个实体页面补充链接:
+  - entities/genesis-world.md: +2 (Genesis-Embodied-AI org + repo)
+  - entities/lerobot.md: +1 (lerobot repo)
+  - entities/physical-intelligence.md: +2 (π0, FAST repos)
+  - entities/nvidia-isaac.md: +2 (Isaac Sim, Isaac Lab repos)
+  - entities/google-deepmind.md: +2 (RT-2, Open X-Embodiment repos)
+  - entities/unitree.md: +1 (unitreerobotics org)
+  - entities/boston-dynamics.md: +1 (boston-dynamics org)
+- 概念页链接覆盖率: 13/14 (world-model-robotics 暂无开源仓库可链接)
+- 实体页链接覆盖率: 12/19 (7 家商业公司无公开 GitHub 组织)
+- 全站 GitHub 链接总数: ~238 个
