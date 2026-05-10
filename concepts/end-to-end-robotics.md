@@ -37,7 +37,7 @@ confidence: high
 |------|------|------|
 | Tesla Optimus | 单一神经网络，FSD 直接移植 | 人类大脑一体化 |
 | Figure Helix | 双系统（快/慢） | 小脑+大脑协同 |
-| Physical Intelligence π0 | 单一模型 | 简洁优雅的全局优化 |
+|| Physical Intelligence [π0](https://github.com/Physical-Intelligence/openpi) | 单一模型 | 简洁优雅的全局优化 |
 
 ## 与分层混合的对比
 

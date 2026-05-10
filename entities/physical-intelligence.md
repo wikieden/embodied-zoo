@@ -34,7 +34,7 @@ confidence: high
 
 ## 关键优势
 
-- **开源生态**：π0 和 FAST 开源，成为学术界基准
+- **开源生态**：[π0](https://github.com/Physical-Intelligence/openpi) 和 [FAST](https://github.com/Physical-Intelligence/fast) 开源，成为学术界基准
 - **跨本体泛化**：在 UR5e 双臂上零样本完成折叠衣物（从未在该机器人上训练）
 - **数据杠杆**：直接基于 [[google-deepmind]] 的 Open X-Embodiment 数据集训练
 

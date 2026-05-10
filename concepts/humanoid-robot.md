@@ -26,8 +26,8 @@ confidence: high
 | Boston Dynamics | Atlas | 190cm | 90kg | 56 | 未公开 | 工业 B2B |
 | Tesla | Optimus | ~173cm | ~73kg | ~78 | 未公开 | 工厂→家庭 |
 | 1X | NEO | 167cm | 30kg | ~30+ | 未公开 | 家庭 C 端 |
-| Unitree | H1 | 180cm | 47kg | ~20 | 不是消费级 | 教育/研究 |
-| Unitree | G1 | 132cm | 35kg | 23 | $13,500 | 教育/研究 |
+|| [Unitree](https://github.com/unitreerobotics) | H1 | 180cm | 47kg | ~20 | 不是消费级 | 教育/研究 |
+|| [Unitree](https://github.com/unitreerobotics) | G1 | 132cm | 35kg | 23 | $13,500 | 教育/研究 |
 | Agility | Digit | 175cm | 65kg | 16 | 未公开 | 仓储 B2B |
 | Apptronik | Apollo | 173cm | 73kg | ~30+ | 未公开 | 工业 B2B |
 

@@ -20,8 +20,9 @@ confidence: high
 
 ## 应用例子
 
-- [[physical-intelligence]] **π0**：3B VLM 骨干 + Flow Matching 动作专家
+- [[physical-intelligence]] [π0](https://github.com/Physical-Intelligence/openpi)：3B VLM 骨干 + Flow Matching 动作专家
 - [[boston-dynamics]] Atlas：Diffusion Transformer 使用 Flow Matching Loss，30Hz 控制频率
+- [Diffusion Policy](https://github.com/real-stanford/diffusion_policy)：Stanford 开源实现，机器人模仿学习的里程碑
 
 ## 与 Diffusion 的关系
 

@@ -24,8 +24,8 @@ NVIDIA 的具身智能基础设施平台，**"卖铲人"定位**——不造机�
 
 ## 核心组件
 
-- **Isaac Sim**：基于 Omniverse/USD，GPU 加速，支持数千环境并行
-- **Isaac Lab**：统一 RL/IL 训练框架，兼容 PyTorch / Hugging Face LeRobot
+- **[Isaac Sim](https://github.com/NVIDIA-Omniverse/IsaacSim)**：基于 Omniverse/USD，GPU 加速，支持数千环境并行
+- **[Isaac Lab](https://github.com/isaac-sim/IsaacLab)**：统一 RL/IL 训练框架，兼容 PyTorch / [Hugging Face LeRobot](https://github.com/huggingface/lerobot)
 - **Jetson Thor**：2024 年发布，专为机器人设计，集成 Transformer Engine
 - **Omniverse Replicator**：程序化生成无限标注合成数据
 - **Project GR00T**：Transformer VLA 参考模型

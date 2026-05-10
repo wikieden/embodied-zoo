@@ -29,8 +29,8 @@ confidence: high
 
 ## 开源贡献
 
-- **Open X-Embodiment Dataset**：全球 20+ 研究机构联合，被 [[physical-intelligence]] π0、[[figure-ai]] Helix 等直接使用
-- RT-2 / RT-X 论文被引用数千次，具身智能基石文献
+- **[Open X-Embodiment Dataset](https://github.com/google-deepmind/open_x_embodiment)**：全球 20+ 研究机构联合，被 [[physical-intelligence]] [π0](https://github.com/Physical-Intelligence/openpi)、[[figure-ai]] Helix 等直接使用
+- [RT-2](https://github.com/google-deepmind/rt2) / RT-X 论文被引用数千次，具身智能基石文献
 
 ## 合作伙伴生态
 

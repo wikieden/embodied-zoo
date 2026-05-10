@@ -25,9 +25,9 @@ confidence: high
 
 | 平台 | 特点 | 用户 |
 |------|------|------|
-| [[nvidia-isaac]] Isaac Sim | GPU 并行、Omniverse/USD 生态 | Figure、1X、Unitree |
-| MuJoCo | 开源、精确控制系统仿真 | 学术界、Boston Dynamics |
-| Genesis | 开源、极速仿真 | 学术界（与 Genesis AI 无关） |
+|| [[nvidia-isaac]] [Isaac Sim](https://github.com/NVIDIA-Omniverse/IsaacSim) | GPU 并行、Omniverse/USD 生态 | Figure、1X、Unitree |
+|| [MuJoCo](https://github.com/google-deepmind/mujoco) | 开源、精确控制系统仿真 | 学术界、Boston Dynamics |
+|| [Genesis](https://github.com/Genesis-Embodied-AI/Genesis) | 开源、极速仿真 | 学术界（与 Genesis AI 无关） |
 
 ## 企业实践
 

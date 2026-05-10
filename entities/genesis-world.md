@@ -10,7 +10,7 @@ confidence: medium
 
 # Genesis World
 
-> 由 Genesis-Embodied-AI 社区开发的生成式物理世界仿真器，支持差分运算、大规模并行与通用机器人学习。目前 GitHub 28.7k ⭐，是具身智能领域增长最快的开源仿真器之一。
+> 由 [Genesis-Embodied-AI](https://github.com/Genesis-Embodied-AI) 社区开发的生成式物理世界仿真器，支持差分运算、大规模并行与通用机器人学习。目前 [GitHub 28.7k ⭐](https://github.com/Genesis-Embodied-AI/Genesis)，是具身智能领域增长最快的开源仿真器之一。
 
 ## 概览
 

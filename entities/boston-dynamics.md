@@ -10,7 +10,7 @@ confidence: high
 
 # Boston Dynamics
 
-1992 年由 Marc Raibert 从 MIT Leg Laboratory 创立，足式机器人动态控制领域的全球领导者。2021 年被 Hyundai 以约 $11 亿收购。
+> [1992 年创立的足式机器人领导者](https://github.com/boston-dynamics)，Atlas/Spot/Stretch 产品线，分层混合架构。
 
 ## 产品矩阵
 

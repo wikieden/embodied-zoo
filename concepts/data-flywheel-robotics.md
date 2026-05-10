@@ -33,7 +33,7 @@ confidence: high
 ## 合成数据的角色
 
 - [[tesla-optimus]] "Digital Dreams"：Sora-like 视频生成 10,000+ 变体
-- [[nvidia-isaac]] Omniverse Replicator：程序化生成无限标注数据
+- [[nvidia-isaac]] [Omniverse Replicator](https://github.com/NVIDIA-Omniverse/OmniIsaacGymEnvs)：程序化生成无限标注数据
 - [[physical-intelligence]] 世界模型：在仿真中试错再迁移到真实世界
 
 ## 关系

@@ -18,9 +18,9 @@ confidence: high
 
 ## 关键进展
 
-- **Open X-Embodiment**（2023.10）：[[google-deepmind]] 联合 20+ 研究机构发布最大跨本体数据集，22 种形态、1600万+ 轨迹
+- **[Open X-Embodiment](https://github.com/google-deepmind/open_x_embodiment)**（2023.10）：[[google-deepmind]] 联合 20+ 研究机构发布最大跨本体数据集，22 种形态、1600万+ 轨迹
 - **RT-X**：在未见过的机器人上成功率比单一本体训练高 50%
-- **π0**（2024.10）：[[physical-intelligence]] 同时控制 8 种截然不同的机器人形态
+- **[π0](https://github.com/Physical-Intelligence/openpi)**（2024.10）：[[physical-intelligence]] 同时控制 8 种截然不同的机器人形态
 - **π0.7**（2026.04）：零样本迁移到从未见过的机器人，如将 Bi-ARX 折叠技能迁移到 UR5e 双臂
 
 ## 技术要点

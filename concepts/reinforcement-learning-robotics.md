@@ -23,9 +23,10 @@ confidence: high
 
 ## 关键框架
 
-- **Isaac Gym/Lab**：[[nvidia-isaac]] GPU 并行 RL 训练，单张 GPU 数百个智能体
-- **MuJoCo**：开源控制系统仿真，学术界标准
-- **RL-Games / robomimic**：与 Isaac Lab 集成的 RL 框架
+- **[Isaac Lab](https://github.com/isaac-sim/IsaacLab)**：[[nvidia-isaac]] GPU 并行 RL 训练，单张 GPU 数百个智能体
+- **[MuJoCo](https://github.com/google-deepmind/mujoco)**：开源控制系统仿真，学术界标准
+- **[robomimic](https://github.com/ARISE-Initiative/robomimic)**：Stanford 开源模仿学习框架
+- **[RL-Games](https://github.com/Denys88/rl_games)**：高性能 RL 框架，与 Isaac Lab 集成
 
 ## 企业实践
 

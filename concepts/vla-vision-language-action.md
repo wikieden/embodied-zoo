@@ -26,18 +26,18 @@ confidence: high
 
 ## 动作表示方法
 
-- **离散 token**：RT-2 将动作离散化为 256 个 token
-- **Flow Matching**：生成平滑连续动作轨迹（[[physical-intelligence]] π0 采用）
-- **FAST**：DCT + BPE 动作 tokenization，10x 压缩率
+- **离散 token**：[RT-2](https://github.com/google-deepmind/rt2) 将动作离散化为 256 个 token
+- **Flow Matching**：生成平滑连续动作轨迹（[[physical-intelligence]] [π0](https://github.com/Physical-Intelligence/openpi) 采用）
+- **FAST**：DCT + BPE 动作 tokenization，10x 压缩率 ([Physical-Intelligence/fast](https://github.com/Physical-Intelligence/fast))
 
 ## 主流实现
 
 | 公司 | 模型 | 动作生成 | 特点 |
 |------|------|----------|------|
-| Figure AI | Helix | 双系统（快/慢） | 全身 loco-manipulation |
-| Physical Intelligence | π0 | Flow Matching 50Hz | 跨本体 8 种机器人 |
-| Tesla | Optimus VLA | 端到端直接输出 | FSD 技术迁移 |
-| Google DeepMind | Gemini Robotics | 动作 token | 双模型 VLA+ER |
+|| Figure AI | Helix | 双系统（快/慢） | 全身 loco-manipulation |
+|| Physical Intelligence | [π0](https://github.com/Physical-Intelligence/openpi) | Flow Matching 50Hz | 跨本体 8 种机器人 |
+|| Tesla | Optimus VLA | 端到端直接输出 | FSD 技术迁移 |
+|| Google DeepMind | [Gemini Robotics](https://github.com/google-deepmind/gemini-robotics) | 动作 token | 双模型 VLA+ER |
 
 ## 挑战
 

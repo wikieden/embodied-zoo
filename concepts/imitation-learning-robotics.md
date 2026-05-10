@@ -29,6 +29,8 @@ confidence: high
 - [[physical-intelligence]]：人类视频到机器人任务的迁移能力在规模上涌现
 - [[boston-dynamics]]：人类遥操作（VR/平板）提供高质量种子数据
 - [[1x-technologies]]：Expert Mode 专家遥控，边做边学
+- [robomimic](https://github.com/ARISE-Initiative/robomimic)：Stanford 开源模仿学习框架
+- [ACT](https://github.com/tonyzhaozh/act)：Action Chunking with Transformers，遥操作模仿学习里程碑
 
 ## 与 RL 的对比
 

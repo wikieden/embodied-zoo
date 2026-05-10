@@ -10,7 +10,7 @@ confidence: high
 
 # LeRobot
 
-> 由 Hugging Face 发起的端到端机器人学习框架，目标是让 AI for Robotics 更易触达。GitHub 23.9k ⭐，是目前机器人学习领域最活跃的开源项目之一。
+> 由 [Hugging Face](https://github.com/huggingface) 发起的端到端机器人学习框架，目标是让 AI for Robotics 更易触达。[GitHub 23.9k ⭐](https://github.com/huggingface/lerobot)，是目前机器人学习领域最活跃的开源项目之一。
 
 ## 概览
 
