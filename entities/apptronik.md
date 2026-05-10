@@ -10,7 +10,9 @@ confidence: high
 
 # Apptronik
 
-2016 年成立于德克萨斯大学奥斯汀分校 Human Centered Robotics Lab。核心产品 Apollo 人形机器人，战略为**"硬件先行，AI 合作"**。
+[官网](https://apptronik.com) · [X/Twitter](https://x.com/apptronik)
+
+通用人形机器人平台 Apollo，硬件+合作 AI（Google Gemini）。
 
 ## 核心优势：执行器技术
 

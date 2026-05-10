@@ -10,6 +10,8 @@ confidence: high
 
 # Physical Intelligence (π)
 
+[官网](https://www.physicalintelligence.company) · [X/Twitter](https://x.com/PhysicalIntel) · [GitHub](https://github.com/Physical-Intelligence)
+
 致力于构建控制**任意机器人**完成**任意任务**的通用机器人基础模型。由学术明星团队创立，18 个月内完成 7 次重大迭代。
 
 ## 核心模型演进

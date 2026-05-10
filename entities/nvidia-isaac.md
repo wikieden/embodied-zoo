@@ -10,7 +10,9 @@ confidence: high
 
 # NVIDIA Isaac
 
-NVIDIA 的具身智能基础设施平台，**"卖铲人"定位**——不造机器人本体，提供芯片+仿真+训练+部署全栈工具。
+[官网](https://developer.nvidia.com/isaac) · [X/Twitter](https://x.com/nvidia) · [GitHub](https://github.com/NVIDIA-Omniverse)
+
+NVIDIA 的具身智能基础设施平台，**卖铲人定位**
 
 ## 平台架构
 

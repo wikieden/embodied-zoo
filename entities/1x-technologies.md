@@ -10,7 +10,9 @@ confidence: high
 
 # 1X Technologies
 
-2014 年成立（原名 Halodi Robotics），总部位于挪威奥斯陆 + 美国加州。OpenAI 领投 A/B 轮，累计融资超 $2.5 亿。
+[官网](https://www.1x.tech) · [X/Twitter](https://x.com/1x_tech)
+
+OpenAI 投资的家用人形机器人公司，核心产品 NEO，肌腱驱动+世界模型。
 
 ## 核心定位
 

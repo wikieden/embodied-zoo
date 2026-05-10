@@ -10,7 +10,9 @@ confidence: high
 
 # Tesla Optimus
 
-Tesla 人形机器人项目，核心赌注是将 **FSD（全自动驾驶）端到端神经网络直接移植到人形机器人**。
+[官网](https://www.tesla.com/optimus) · [X/Twitter](https://x.com/Tesla_Optimus)
+
+Tesla 人形机器人，FSD 神经网络直接移植，数据飞轮规模全球第一。
 
 ## 核心架构
 

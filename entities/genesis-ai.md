@@ -10,7 +10,9 @@ confidence: low
 
 # Genesis AI
 
-⚠️ **信息极度稀缺的新兴公司**，需保持高度谨慎。
+[官网](https://genesis-ai.com) · [X/Twitter](https://x.com/genesisai)
+
+信息稀缺的新兴公司，声称 GENE-26.5 达到 Human-Level。
 
 ## 已知信息
 

@@ -10,7 +10,9 @@ confidence: high
 
 # Boston Dynamics
 
-> [1992 年创立的足式机器人领导者](https://github.com/boston-dynamics)，Atlas/Spot/Stretch 产品线，分层混合架构。
+[官网](https://bostondynamics.com) · [X/Twitter](https://x.com/BostonDynamics) · [GitHub](https://github.com/boston-dynamics)
+
+1992 年创立的足式机器人领导者，Atlas/Spot/Stretch 产品线，分层混合架构。
 
 ## 产品矩阵
 

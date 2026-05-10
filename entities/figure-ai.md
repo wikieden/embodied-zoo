@@ -10,7 +10,9 @@ confidence: high
 
 # Figure AI
 
-美国通用人形机器人公司，估值 $390 亿（2025.09），致力于构建通用具身智能平台。
+[官网](https://www.figure.ai) · [X/Twitter](https://x.com/Figure_robot)
+
+估值 $390 亿的通用人形机器人公司，Helix VLA + BotQ 制造。
 
 ## 核心产品
 

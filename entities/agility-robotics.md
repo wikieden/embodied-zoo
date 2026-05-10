@@ -10,7 +10,9 @@ confidence: high
 
 # Agility Robotics
 
-2015 年成立于俄勒冈州立大学 spin-off。核心产品 Digit，定位**物流/仓储场景专用人形机器人**。
+[官网](https://www.agilityrobotics.com) · [X/Twitter](https://x.com/agilityrobotics)
+
+物流仓储专用人形机器人 Digit，分层控制 LIPM+ZMP+MPC。
 
 ## 设计哲学
 

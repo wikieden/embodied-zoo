@@ -10,7 +10,9 @@ confidence: medium
 
 # Enchanted Tools
 
-2021 年成立于法国巴黎。团队来自 Aldebaran / SoftBank Robotics（Pepper/Nao 原班人马）。核心产品 Miroki，定位**服务/社交场景**。
+[官网](https://enchanted.tools) · [X/Twitter](https://x.com/enchanted_tools)
+
+法国服务/社交场景机器人公司，产品 Miroki，Pepper/Nao 原班人马。
 
 ## Miroki 特点
 

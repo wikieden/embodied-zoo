@@ -10,6 +10,8 @@ confidence: high
 
 # Google DeepMind
 
+[官网](https://deepmind.google) · [X/Twitter](https://x.com/GoogleDeepMind) · [GitHub](https://github.com/google-deepmind)
+
 具身智能领域最重要的**技术赋能者**，不造硬件，纯软件/模型。定义了 VLA 架构，构建了行业数据基础设施。
 
 ## 技术演进
