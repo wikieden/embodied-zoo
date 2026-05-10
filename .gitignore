@@ -1,0 +1,17 @@
+# Obsidian
+.obsidian/
+
+# macOS
+.DS_Store
+
+# Node.js (if Quartz is initialized inside repo)
+node_modules/
+quartz/
+
+# Build artifacts
+dist/
+public/
+
+# Local env
+.env
+.env.local
